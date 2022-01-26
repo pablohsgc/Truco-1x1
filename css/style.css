@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placar{
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    color: white;
+}
+
+/*Configuração da mesa*/
+.mesa{
+    display: flex;
+    background-color: green;
+    height: 80%;
+    width: 80%;
+    border-radius: 15%;
+    border: 10px solid saddlebrown;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Configuracao de maos*/
+.mao{
+    display: flex;
+    flex-direction: row;
+}
+
+.carta-jogador2{
+    margin-top: -15px;
+}
+
+/*Configuração das cartas*/
+.carta{
+    margin-left: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.carta:hover{
+    background-color: yellowgreen;
+}
+
+.fundo-carta{
+    margin-left: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.nipe{
+    width: 20px;
+    height: 20px;
+}
+
+.num-carta{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.red{
+    color: red;
+}
+
+.black{
+    color: black;
+}
+
+.green{
+    color: green;
+}
+
+.simb-dir-carta{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(180deg);
+}
+
+.simb-esq-carta{
+    display: flex;
+    flex-direction: column;
+}
+
+.espadas{
+    content: url('https://static.thenounproject.com/png/232-200.png');
+}
+
+.paus{
+    content: url('https://img.icons8.com/emoji/48/000000/club-suit.png');
+}
+
+.ouros{
+    content: url('https://api.iconify.design/emojione-monotone/large-orange-diamond.svg?color=red');
+}
+
+.copas{
+    content: url('https://api.iconify.design/icomoon-free/heart.svg?color=red');
+}
